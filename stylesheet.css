@@ -1,0 +1,114 @@
+body {
+	padding: 0;
+	width: 66%;
+	margin: auto;
+	font-family:"新細明體", "細明體", Arial, Verdana, Helvetica, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #333333;
+
+}
+.navtop {
+	float: right;
+	margin: 0;display: table-row;
+	padding: 0;
+	position: relative;
+	top: 36px;
+	line-height: 12px;
+}
+.navtop a:hover {
+	color: #ff9900;
+}
+.nav_top01 {
+	display: inline-block;
+	font-size: 12px;
+}
+li {
+	list-style-type: none;
+}
+#list02 {
+	display: inline;
+}
+/*
+container########################
+ */
+.container {
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	    flex-direction: row;
+	position: relative;
+	top: 10px;
+	line-height: 12px;
+}
+.list a:hover {
+	color: #ff9900;
+}
+#intro {
+	margin-top: 30px;
+}
+.image {
+	margin-left: -5px;
+}
+#close {
+	position: relative;
+	right: 5px;
+}
+.list {
+	font-size: 13px;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+	max-width: 150px;
+	position: relative;
+	left: 290px;
+	color: white;
+}
+.line {
+	width: 180px;
+}
+.container02 {
+	display: flex;
+	display: -webkit-flex;
+	    -webkit-flex-direction: row;
+	        -ms-flex-direction: row;
+	            flex-direction: row;
+	position: relative;
+	top: 20px;
+	left: -15px;
+}
+#position {
+	background-color: black;
+	width: 300px;
+	height: 304px;
+	color: white;
+	font-size: 13px;
+}
+#position p {
+	position: relative;
+	top: 20px;
+	left: 20px;
+	line-height: 20px;
+}
+#position img {
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+/*
+article ######################
+ */
+.song {
+	position: relative;
+	top: 30px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
