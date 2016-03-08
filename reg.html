@@ -1,9 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="reg.css" />
+    <title>政大藝文中心節目簡介─2012春季</title>
+	<title>Reg</title>
 </head>
 <body>
-
+	<h1>申請頁面</h1>
+	<form>
+		姓名：
+		<input type="text" name="name" required="required" maxlength="10" />
+		<br>
+		學院：
+		<select required>
+			<label for=""></label>
+			<option value="金融">金融</option>
+			<option value="企管">企管</option>
+			<option value="風管">風管</option>
+			<option value="歷史">歷史</option>
+			<option value="法文">法文</option>
+			<option value="資管">資管</option>
+			<option value="財管">財管</option>
+			<option value="會計">會計</option>
+			<option value="統計">統計</option>
+		</select>
+		<br>
+		手機：
+		<input onkeyup="value=value.replace(/[^\d]/g,'') " maxlength="10" required="required" />
+		<br>
+		Email:
+		<input type="email" name="email" required="required" />
+		<br>
+		生日：<br>
+		西元年：
+		<input type="text" name="year" maxlength="4" onkeyup="value=value.replace(/[^\d]/g,'') ">
+		月：
+		<input type="text" name="month" maxlength="2" onkeyup="value=value.replace(/[^\d]/g,'') ">
+		日：
+		<input type="text" name="day" maxlength="2" onkeyup="value=value.replace(/[^\d]/g,'') ">
+		<br>
+		<input type="submit" value="Submit">
+	</form>
 </body>
 </html>

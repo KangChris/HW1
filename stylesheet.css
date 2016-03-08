@@ -136,6 +136,7 @@ article ######################
 .content p {
 	font-size: 12px;
 	line-height: 20px;
+	padding-right: 20px;
 }
 .content img {
 	float: left;
@@ -179,12 +180,52 @@ aside #######################
 	padding-left: 20px;
 	font-size: 12px;
 	line-height: 24px;
+	clear: both;
 }
 #spacer_green {
 	margin-left: -5px;
 	margin-top: 20px;
 }
-
+#btop {
+	float: right;
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+#btline {
+	position: relative;
+	top: 90px;
+}
+footer {
+	position: relative;
+	clear: both;
+}
+#logo_artcenter {
+	position: relative;
+	top: 90px;
+	float: left;
+}
+.link {
+	position: relative;
+	top: 60px;
+	float: right;
+	clear: right;
+	line-height: 25px;
+}
+.school {
+	position: relative;
+	top: 90px;
+	font-size: 12px;
+}
+#bottom {
+	width: 100%;
+	background-color: green;
+	height: 10px;
+	position: relative;
+	top: 100px;
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
 
 
 
