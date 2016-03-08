@@ -16,6 +16,10 @@ a {
 	position: relative;
 	top: 36px;
 	line-height: 12px;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+    flex-direction: column;
 }
 .navtop a:hover {
 	color: #ff9900;
@@ -42,6 +46,27 @@ container########################
 	top: 10px;
 	line-height: 12px;
 }
+table {
+	padding: 0;
+	border-spacing: 0;
+}
+#middle {
+	width: 446px;
+}
+.table_program_air {
+	padding: 3;
+	border-spacing: 1px;
+	width: 690px;
+}
+td>div {
+	text-align: center;
+}
+ .trtitle {
+ 	background-color: #99CC00;
+ }
+ #special {
+ 	width: 391;
+ }
 .list a:hover {
 	color: #ff9900;
 }
