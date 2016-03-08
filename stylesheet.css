@@ -105,8 +105,85 @@ article ######################
 	top: 30px;
 	font-size: 12px;
 }
-
-
+.main {
+	width: 87%;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: -15px;
+}
+.songlist {
+	background-color: #EEF5DF;
+}
+.article {
+	float: left;
+}
+#black {
+	width: 250px;
+	height: 100px;
+	background-color: black;
+	margin: 0;
+	float: left;
+	margin-right: 20px;
+}
+.picture {
+	float: left;
+	clear: left;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.content p {
+	font-size: 12px;
+	line-height: 20px;
+}
+.content img {
+	float: left;
+	clear: left;
+	margin-right: 20px;
+	display: flex;
+	display: -webkit-flex;
+		    -webkit-flex-direction: column;
+	        -ms-flex-direction: column;
+	            flex-direction: column;
+}
+hr {
+	border: 1px dotted;
+	width: 100%;
+}
+.text_brown {
+	font-size: 14px;
+	color: red;
+}
+#white {
+	width: 250px;
+	height: 180px;
+	background-color: white;
+	margin: 0;
+	float: left;
+	margin-right: 20px;
+	clear: left;
+}
+/*
+aside #######################
+ */
+.side {
+	width: 215px;
+	height: 1670px;
+	float: right;
+	background-color: #EEF5DF;
+	position: absolute;
+	top: 560px;
+	right: 250px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+	line-height: 24px;
+}
+#spacer_green {
+	margin-left: -5px;
+	margin-top: 20px;
+}
 
 
 
